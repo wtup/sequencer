@@ -7,7 +7,7 @@ include $(TOP)/configure/CONFIG
 # the support applications defined in $(TOP)/configure/RELEASE
 CHECK_RELEASE = YES
 
-CFG += RULES_SNCSEQ
+CONFIG_INSTALLS += ../RULES_SNCSEQ
 
 TARGETS = $(CONFIG_TARGETS)
 CONFIGS += $(subst ../,,$(wildcard $(CONFIG_INSTALLS)))
